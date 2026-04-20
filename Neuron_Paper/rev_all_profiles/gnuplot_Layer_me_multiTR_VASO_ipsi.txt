@@ -1,0 +1,31 @@
+ 
+set terminal x11 enhanced 40
+#set terminal postscript enhanced color solid "Helvetica" 25
+#set out "VASO_ipsi.ps"
+
+set title "" 
+set ylabel "activity" 
+set xlabel "cortical depth"
+
+plot 	"all_norm_mean.dat" u 1:($6)  w lines title "subj 1 VASO ipsi"  linewidth 3 linecolor rgb "blue"  ,\
+        "all_norm_mean.dat" u 1:($13) w lines title "subj 2 VASO ipsi"  linewidth 3 linecolor rgb "red"  ,\
+		"all_norm_mean.dat" u 1:($20) w lines title "subj 3 VASO ipsi"  linewidth 3 linecolor rgb "green"  ,\
+		"all_norm_mean.dat" u 1:($27) w lines title "subj 4 VASO ipsi"  linewidth 3 linecolor rgb "black"  ,\
+		"all_norm_mean.dat" u 1:($34) w lines title "subj 5 VASO ipsi"  linewidth 3 linecolor rgb "orange"  ,\
+		"all_norm_mean.dat" u 1:($41) w lines title "subj 6 VASO ipsi"  linewidth 3 linecolor rgb "turquoise"  ,\
+		"all_norm_mean.dat" u 1:($48) w lines title "subj 7 VASO ipsi"  linewidth 3 linecolor rgb "brown" ,\
+		"all_norm_mean.dat" u 1:($55) w lines title "subj 8 VASO ipsi"  linewidth 3 linecolor rgb "yellow" ,\
+		"all_norm_mean.dat" u 1:($69) w lines title "MEAN"  linewidth 5 linecolor rgb "black" ,\
+		"all_norm_mean.dat" u 1:($77) w lines title "STDEV"  linewidth 5 linecolor rgb "grey" 
+
+
+#set xtics ( "-1" -1, "w-1" w-1 ,  "0" 0, "1-w" 1-w  ,  "1" 1) 
+#set ytics ( "Amin" Amin, "c" c, "Amax" Amax, "0" 0 ) 
+#set sample 1000
+
+#G(x) title "Gradient" linewidth 2  ,\ 
+
+#plot deltaw(x) title "deltaW" linewidth 2
+
+set term x11
+exit

@@ -1,0 +1,30 @@
+ 
+set terminal x11 enhanced 40
+#set terminal postscript enhanced color solid "Helvetica" 25
+#set out "BOLD_touch.ps"
+
+set title "" 
+set ylabel "activity" 
+set xlabel "cortical depth"
+
+plot 	"all_norm_mean.dat" u 1:($2)  w lines title "subj 1 BOLD touch"  linewidth 3 linecolor rgb "blue"  ,\
+        "all_norm_mean.dat" u 1:($9)  w lines title "subj 2 BOLD touch"  linewidth 3 linecolor rgb "red"  ,\
+		"all_norm_mean.dat" u 1:($16) w lines title "subj 3 BOLD touch"  linewidth 3 linecolor rgb "green"  ,\
+		"all_norm_mean.dat" u 1:($23) w lines title "subj 4 BOLD touch"  linewidth 3 linecolor rgb "black"  ,\
+		"all_norm_mean.dat" u 1:($30) w lines title "subj 5 BOLD touch"  linewidth 3 linecolor rgb "orange"  ,\
+		"all_norm_mean.dat" u 1:($37) w lines title "subj 6 BOLD touch"  linewidth 3 linecolor rgb "turquoise"  ,\
+		"all_norm_mean.dat" u 1:($44) w lines title "subj 7 BOLD touch"  linewidth 3 linecolor rgb "brown" ,\
+		"all_norm_mean.dat" u 1:($51) w lines title "subj 8 BOLD touch"  linewidth 3 linecolor rgb "yellow" ,\
+		"all_norm_mean.dat" u 1:($65) w lines title "MEAN"  linewidth 5 linecolor rgb "black" ,\
+		"all_norm_mean.dat" u 1:($72) w lines title "STDEV"  linewidth 5 linecolor rgb "grey" 
+
+#set xtics ( "-1" -1, "w-1" w-1 ,  "0" 0, "1-w" 1-w  ,  "1" 1) 
+#set ytics ( "Amin" Amin, "c" c, "Amax" Amax, "0" 0 ) 
+#set sample 1000
+
+#G(x) title "Gradient" linewidth 2  ,\ 
+
+#plot deltaw(x) title "deltaW" linewidth 2
+
+set term x11
+exit

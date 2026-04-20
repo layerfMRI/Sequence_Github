@@ -1,0 +1,35 @@
+ 
+set terminal x11 enhanced 40
+#set terminal postscript enhanced color solid "Helvetica" 25
+#set out "VASO_mean.ps"
+
+set title "" 
+set ylabel "activity" 
+set xlabel "cortical depth"
+
+set style fill transparent solid 0.2 noborder
+
+plot	"all_norm_mean.dat" u 1:($68)-($75)/3:($68)+($75)/3 w filledcurves title ""  linecolor rgb "blue" ,\
+		"all_norm_mean.dat" u 1:($69)-($76)/3:($69)+($76)/3 w filledcurves title ""  linecolor rgb "red" ,\
+		"all_norm_mean.dat" u 1:($70)-($77)/3:($70)+($77)/3 w filledcurves title ""  linecolor rgb "green" ,\
+		"layer_toch_only.dat" u 1:($7)-($8)/2:($7)+($8)/2 w filledcurves title ""  linecolor rgb "black" ,\
+		"all_norm_mean.dat" u 1:($68):($75) w yerrorbars  title "" pt 1 linecolor rgb "blue" ,\
+		"all_norm_mean.dat" u 1:($68) w lines title ""  linewidth 5 linecolor rgb "blue" ,\
+		"all_norm_mean.dat" u 1:($69):($76) w yerrorbars  title "" pt 1 linecolor rgb "red" ,\
+		"all_norm_mean.dat" u 1:($69) w lines title ""  linewidth 5 linecolor rgb "red" ,\
+		"all_norm_mean.dat" u 1:($70):($77) w yerrorbars  title "" pt 1 linecolor rgb "green" ,\
+		"all_norm_mean.dat" u 1:($70) w lines title ""  linewidth 5 linecolor rgb "green" ,\
+		"layer_toch_only.dat" u 1:($7):($8) w yerrorbars  title "" pt 1 linecolor rgb "black" ,\
+		"layer_toch_only.dat" u 1:($7) w lines title ""  linewidth 5 linecolor rgb "black"
+
+
+#set xtics ( "-1" -1, "w-1" w-1 ,  "0" 0, "1-w" 1-w  ,  "1" 1) 
+#set ytics ( "Amin" Amin, "c" c, "Amax" Amax, "0" 0 ) 
+#set sample 1000
+
+#G(x) title "Gradient" linewidth 2  ,\ 
+
+#plot deltaw(x) title "deltaW" linewidth 2
+
+set term x11
+exit
