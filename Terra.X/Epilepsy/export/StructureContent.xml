@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EdfRoot>
+<EdfItemMemento ObjectId="c41711fc-5d0d-4fee-8450-e7ffd305d5dd" TypeId="EdfStructure" xmlns="http://syngo.MR.ExamDataFoundation.Data" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System" xmlns:smec="clr-namespace:syngo.MR.ExamDataFoundation.Core;assembly=syngo.MR.ExamDataFoundation.Core" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <EdfItemMemento.Content>
+    <EdfStructureContent RootDirectoryId="5d17291b-a409-4da2-9572-8511f40f18df">
+      <EdfStructureContent.ParentDirectoryId>
+        <s:Guid x:Key="08e77419-9d9c-43f9-8bfe-1bd9d42cb2a0">ffb86346-d5b9-4094-88a5-4fc390657c8e</s:Guid>
+        <s:Guid x:Key="26db40bc-77f9-4183-a15a-30753f9af696">5d17291b-a409-4da2-9572-8511f40f18df</s:Guid>
+        <s:Guid x:Key="5d17291b-a409-4da2-9572-8511f40f18df">00000000-0000-0000-0000-000000000000</s:Guid>
+        <s:Guid x:Key="92973d2c-f3ba-417a-ab0f-be5a2e871740">26db40bc-77f9-4183-a15a-30753f9af696</s:Guid>
+        <s:Guid x:Key="ffb86346-d5b9-4094-88a5-4fc390657c8e">92973d2c-f3ba-417a-ab0f-be5a2e871740</s:Guid>
+      </EdfStructureContent.ParentDirectoryId>
+      <EdfStructureContent.ProgramElementIds>
+        <scg:List x:TypeArguments="s:Guid" Capacity="1">
+          <s:Guid>08e77419-9d9c-43f9-8bfe-1bd9d42cb2a0</s:Guid>
+        </scg:List>
+      </EdfStructureContent.ProgramElementIds>
+      <EdfStructureContent.SubdirectoryIds>
+        <scg:List x:TypeArguments="s:Guid" x:Key="26db40bc-77f9-4183-a15a-30753f9af696" Capacity="1">
+          <s:Guid>92973d2c-f3ba-417a-ab0f-be5a2e871740</s:Guid>
+        </scg:List>
+        <scg:List x:TypeArguments="s:Guid" x:Key="5d17291b-a409-4da2-9572-8511f40f18df" Capacity="1">
+          <s:Guid>26db40bc-77f9-4183-a15a-30753f9af696</s:Guid>
+        </scg:List>
+        <scg:List x:TypeArguments="s:Guid" x:Key="92973d2c-f3ba-417a-ab0f-be5a2e871740" Capacity="1">
+          <s:Guid>ffb86346-d5b9-4094-88a5-4fc390657c8e</s:Guid>
+        </scg:List>
+        <scg:List x:TypeArguments="s:Guid" x:Key="ffb86346-d5b9-4094-88a5-4fc390657c8e" Capacity="0" />
+      </EdfStructureContent.SubdirectoryIds>
+      <EdfStructureContent.SubprogramElementIds>
+        <scg:List x:TypeArguments="s:Guid" x:Key="26db40bc-77f9-4183-a15a-30753f9af696" Capacity="0" />
+        <scg:List x:TypeArguments="s:Guid" x:Key="5d17291b-a409-4da2-9572-8511f40f18df" Capacity="0" />
+        <scg:List x:TypeArguments="s:Guid" x:Key="92973d2c-f3ba-417a-ab0f-be5a2e871740" Capacity="0" />
+        <scg:List x:TypeArguments="s:Guid" x:Key="ffb86346-d5b9-4094-88a5-4fc390657c8e" Capacity="1">
+          <s:Guid>08e77419-9d9c-43f9-8bfe-1bd9d42cb2a0</s:Guid>
+        </scg:List>
+      </EdfStructureContent.SubprogramElementIds>
+    </EdfStructureContent>
+  </EdfItemMemento.Content>
+  <EdfItemMemento.Persistency>
+    <smec:EdfPersistency Metadata="{x:Null}" ElementId="684fc6ae-5b3d-40c1-9f44-d71ec388bb87" InstanceId="d60b5e12-307a-4f1f-b87b-6310df9a55f2" LoadStates="StructuresFullDeep" State="Retrieved" />
+  </EdfItemMemento.Persistency>
+  <EdfItemMemento.Tags>
+    <sco:ObservableCollection x:TypeArguments="smec:EdfTag" />
+  </EdfItemMemento.Tags>
+</EdfItemMemento>
+<x:Int32 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">0</x:Int32>
+<EdfItemMemento ObjectId="6ceaaf62-bc30-4025-90d9-ef3da0bdd170" TypeId="EdfString" xmlns="http://syngo.MR.ExamDataFoundation.Data" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System" xmlns:smec="clr-namespace:syngo.MR.ExamDataFoundation.Core;assembly=syngo.MR.ExamDataFoundation.Core" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <EdfItemMemento.Content>
+    <EdfStringContent>
+      <EdfStringContent.Dates>
+        <smec:EdfObservableDictionary x:TypeArguments="x:String, s:DateTime" />
+      </EdfStringContent.Dates>
+      <EdfStringContent.Texts>
+        <smec:EdfObservableDictionary x:TypeArguments="x:String, x:String" />
+      </EdfStringContent.Texts>
+    </EdfStringContent>
+  </EdfItemMemento.Content>
+  <EdfItemMemento.Persistency>
+    <smec:EdfPersistency Metadata="{x:Null}" ElementId="00000000-0000-0000-0000-000000000000" InstanceId="00000000-0000-0000-0000-000000000000" LoadStates="None" State="Ignored" />
+  </EdfItemMemento.Persistency>
+  <EdfItemMemento.Tags>
+    <sco:ObservableCollection x:TypeArguments="smec:EdfTag" />
+  </EdfItemMemento.Tags>
+</EdfItemMemento>
+<x:Int32 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">0</x:Int32>
+<EdfItemMemento ObjectId="3edfceb6-ddc7-420a-9c8b-5d84fbbb197b" TypeId="EdfString" xmlns="http://syngo.MR.ExamDataFoundation.Data" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System" xmlns:smec="clr-namespace:syngo.MR.ExamDataFoundation.Core;assembly=syngo.MR.ExamDataFoundation.Core" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <EdfItemMemento.Content>
+    <EdfStringContent>
+      <EdfStringContent.Dates>
+        <smec:EdfObservableDictionary x:TypeArguments="x:String, s:DateTime" />
+      </EdfStringContent.Dates>
+      <EdfStringContent.Texts>
+        <smec:EdfObservableDictionary x:TypeArguments="x:String, x:String" />
+      </EdfStringContent.Texts>
+    </EdfStringContent>
+  </EdfItemMemento.Content>
+  <EdfItemMemento.Persistency>
+    <smec:EdfPersistency Metadata="{x:Null}" ElementId="00000000-0000-0000-0000-000000000000" InstanceId="00000000-0000-0000-0000-000000000000" LoadStates="None" State="Ignored" />
+  </EdfItemMemento.Persistency>
+  <EdfItemMemento.Tags>
+    <sco:ObservableCollection x:TypeArguments="smec:EdfTag" />
+  </EdfItemMemento.Tags>
+</EdfItemMemento>
+<x:Int32 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">0</x:Int32>
+<x:Int32 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">4</x:Int32>
+<EdfItemMemento ObjectId="26db40bc-77f9-4183-a15a-30753f9af696" TypeId="EdfDirectory" xmlns="http://syngo.MR.ExamDataFoundation.Data" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System" xmlns:smec="clr-namespace:syngo.MR.ExamDataFoundation.Core;assembly=syngo.MR.ExamDataFoundation.Core" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <EdfItemMemento.Content>
+    <EdfDirectoryContent BodyPartExamined="" IsProtected="False" Laterality="" Password="" TablePositioningMode="" />
+  </EdfItemMemento.Content>
+  <EdfItemMemento.Persistency>
+    <smec:EdfPersistency Metadata="{x:Null}" ElementId="c9c2e78e-8f51-4530-a93e-4b574a3c391d" InstanceId="e3dac9f4-c1e4-45a2-94f6-71f1c2ff8fe7" LoadStates="StructuresFullDeep" State="Retrieved" />
+  </EdfItemMemento.Persistency>
+  <EdfItemMemento.Tags>
+    <sco:ObservableCollection x:TypeArguments="smec:EdfTag" />
+  </EdfItemMemento.Tags>
+</EdfItemMemento>
+<x:Int32 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">0</x:Int32>
+<EdfItemMemento ObjectId="b242c2e5-de17-42ce-a2b0-1e92f1e1782c" TypeId="EdfString" xmlns="http://syngo.MR.ExamDataFoundation.Data" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System" xmlns:smec="clr-namespace:syngo.MR.ExamDataFoundation.Core;assembly=syngo.MR.ExamDataFoundation.Core" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <EdfItemMemento.Content>
+    <EdfStringContent>
+      <EdfStringContent.Dates>
+        <s:DateTime x:Key="de">2026-08-27T18:56:53.1792619Z</s:DateTime>
+        <s:DateTime x:Key="en">2026-08-27T18:56:53.1762724Z</s:DateTime>
+        <s:DateTime x:Key="es">2026-08-27T18:56:53.182252Z</s:DateTime>
+        <s:DateTime x:Key="fr">2026-08-27T18:56:53.1802588Z</s:DateTime>
+        <s:DateTime x:Key="ja">2026-08-27T18:56:53.1832496Z</s:DateTime>
+        <s:DateTime x:Key="zh">2026-08-27T18:56:53.1852423Z</s:DateTime>
+      </EdfStringContent.Dates>
+      <EdfStringContent.Texts>
+        <x:String x:Key="de">Export</x:String>
+        <x:String x:Key="en">Export</x:String>
+        <x:String x:Key="es">Exportar</x:String>
+        <x:String x:Key="fr">Exporter</x:String>
+        <x:String x:Key="ja">エクスポート</x:String>
+        <x:String x:Key="zh">导出</x:String>
+      </EdfStringContent.Texts>
+    </EdfStringContent>
+  </EdfItemMemento.Content>
+  <EdfItemMemento.Persistency>
+    <smec:EdfPersistency Metadata="{x:Null}" ElementId="e95f41c1-acba-427a-b9ef-a0814c2c2352" InstanceId="20481fd8-5d59-4001-a201-77eb4d8a5d0a" LoadStates="None" State="Retrieved" />
+  </EdfItemMemento.Persistency>
+  <EdfItemMemento.Tags>
+    <sco:ObservableCollection x:TypeArguments="smec:EdfTag" />
+  </EdfItemMemento.Tags>
+</EdfItemMemento>
+<x:Int32 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">0</x:Int32>
+<EdfItemMemento ObjectId="7e766bc7-17c2-4383-a6f7-ab9b60e91c20" TypeId="EdfString" xmlns="http://syngo.MR.ExamDataFoundation.Data" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System" xmlns:smec="clr-namespace:syngo.MR.ExamDataFoundation.Core;assembly=syngo.MR.ExamDataFoundation.Core" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <EdfItemMemento.Content>
+    <EdfStringContent>
+      <EdfStringContent.Dates>
+        <smec:EdfObservableDictionary x:TypeArguments="x:String, s:DateTime" />
+      </EdfStringContent.Dates>
+      <EdfStringContent.Texts>
+        <smec:EdfObservableDictionary x:TypeArguments="x:String, x:String" />
+      </EdfStringContent.Texts>
+    </EdfStringContent>
+  </EdfItemMemento.Content>
+  <EdfItemMemento.Persistency>
+    <smec:EdfPersistency Metadata="{x:Null}" ElementId="00000000-0000-0000-0000-000000000000" InstanceId="00000000-0000-0000-0000-000000000000" LoadStates="None" State="Ignored" />
+  </EdfItemMemento.Persistency>
+  <EdfItemMemento.Tags>
+    <sco:ObservableCollection x:TypeArguments="smec:EdfTag" />
+  </EdfItemMemento.Tags>
+</EdfItemMemento>
+<x:Int32 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">0</x:Int32>
+<EdfItemMemento ObjectId="5d17291b-a409-4da2-9572-8511f40f18df" TypeId="EdfDirectory" xmlns="http://syngo.MR.ExamDataFoundation.Data" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System" xmlns:smec="clr-namespace:syngo.MR.ExamDataFoundation.Core;assembly=syngo.MR.ExamDataFoundation.Core" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <EdfItemMemento.Content>
+    <EdfDirectoryContent BodyPartExamined="" IsProtected="False" Laterality="" Password="" TablePositioningMode="" />
+  </EdfItemMemento.Content>
+  <EdfItemMemento.Persistency>
+    <smec:EdfPersistency Metadata="{x:Null}" ElementId="7ebf285f-1334-41a9-b0a6-81466e394398" InstanceId="513b550d-dd10-4c6e-8e24-bf7de5bee448" LoadStates="StructuresFullDeep" State="Retrieved" />
+  </EdfItemMemento.Persistency>
+  <EdfItemMemento.Tags>
+    <sco:ObservableCollection x:TypeArguments="smec:EdfTag" />
+  </EdfItemMemento.Tags>
+</EdfItemMemento>
+<x:Int32 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">0</x:Int32>
+<EdfItemMemento ObjectId="85ad1b1c-d372-4a0a-bc40-0979a8f89ecd" TypeId="EdfString" xmlns="http://syngo.MR.ExamDataFoundation.Data" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System" xmlns:smec="clr-namespace:syngo.MR.ExamDataFoundation.Core;assembly=syngo.MR.ExamDataFoundation.Core" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <EdfItemMemento.Content>
+    <EdfStringContent>
+      <EdfStringContent.Dates>
+        <smec:EdfObservableDictionary x:TypeArguments="x:String, s:DateTime" />
+      </EdfStringContent.Dates>
+      <EdfStringContent.Texts>
+        <x:String x:Key="en">Root</x:String>
+      </EdfStringContent.Texts>
+    </EdfStringContent>
+  </EdfItemMemento.Content>
+  <EdfItemMemento.Persistency>
+    <smec:EdfPersistency Metadata="{x:Null}" ElementId="72f39af7-211b-4a5b-bba8-21850538c23a" InstanceId="c57daf5e-9652-4635-9ddd-3ef599e19b59" LoadStates="None" State="Retrieved" />
+  </EdfItemMemento.Persistency>
+  <EdfItemMemento.Tags>
+    <sco:ObservableCollection x:TypeArguments="smec:EdfTag" />
+  </EdfItemMemento.Tags>
+</EdfItemMemento>
+<x:Int32 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">0</x:Int32>
+<EdfItemMemento ObjectId="bdfd523c-3ea8-42db-88c1-cd86bacda016" TypeId="EdfString" xmlns="http://syngo.MR.ExamDataFoundation.Data" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System" xmlns:smec="clr-namespace:syngo.MR.ExamDataFoundation.Core;assembly=syngo.MR.ExamDataFoundation.Core" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <EdfItemMemento.Content>
+    <EdfStringContent>
+      <EdfStringContent.Dates>
+        <smec:EdfObservableDictionary x:TypeArguments="x:String, s:DateTime" />
+      </EdfStringContent.Dates>
+      <EdfStringContent.Texts>
+        <smec:EdfObservableDictionary x:TypeArguments="x:String, x:String" />
+      </EdfStringContent.Texts>
+    </EdfStringContent>
+  </EdfItemMemento.Content>
+  <EdfItemMemento.Persistency>
+    <smec:EdfPersistency Metadata="{x:Null}" ElementId="00000000-0000-0000-0000-000000000000" InstanceId="00000000-0000-0000-0000-000000000000" LoadStates="None" State="Ignored" />
+  </EdfItemMemento.Persistency>
+  <EdfItemMemento.Tags>
+    <sco:ObservableCollection x:TypeArguments="smec:EdfTag" />
+  </EdfItemMemento.Tags>
+</EdfItemMemento>
+<x:Int32 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">0</x:Int32>
+<EdfItemMemento ObjectId="92973d2c-f3ba-417a-ab0f-be5a2e871740" TypeId="EdfDirectory" xmlns="http://syngo.MR.ExamDataFoundation.Data" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System" xmlns:smec="clr-namespace:syngo.MR.ExamDataFoundation.Core;assembly=syngo.MR.ExamDataFoundation.Core" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <EdfItemMemento.Content>
+    <EdfDirectoryContent BodyPartExamined="" IsProtected="False" Laterality="" Password="" TablePositioningMode="" />
+  </EdfItemMemento.Content>
+  <EdfItemMemento.Persistency>
+    <smec:EdfPersistency Metadata="{x:Null}" ElementId="423340ad-741a-4087-a2c3-0b6f70ab0f03" InstanceId="c475fc69-30a4-4b6a-a6f6-de8b0d713a92" LoadStates="StructuresFullDeep" State="Retrieved" />
+  </EdfItemMemento.Persistency>
+  <EdfItemMemento.Tags>
+    <sco:ObservableCollection x:TypeArguments="smec:EdfTag" />
+  </EdfItemMemento.Tags>
+</EdfItemMemento>
+<x:Int32 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">0</x:Int32>
+<EdfItemMemento ObjectId="630ac3e6-033d-4719-93c5-16bee1a6caf9" TypeId="EdfString" xmlns="http://syngo.MR.ExamDataFoundation.Data" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System" xmlns:smec="clr-namespace:syngo.MR.ExamDataFoundation.Core;assembly=syngo.MR.ExamDataFoundation.Core" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <EdfItemMemento.Content>
+    <EdfStringContent>
+      <EdfStringContent.Dates>
+        <smec:EdfObservableDictionary x:TypeArguments="x:String, s:DateTime" />
+      </EdfStringContent.Dates>
+      <EdfStringContent.Texts>
+        <x:String x:Key="en">Renzo</x:String>
+      </EdfStringContent.Texts>
+    </EdfStringContent>
+  </EdfItemMemento.Content>
+  <EdfItemMemento.Persistency>
+    <smec:EdfPersistency Metadata="{x:Null}" ElementId="f98e87f0-4227-441a-91f0-02c032ca8153" InstanceId="13aac2ff-f113-4151-ac66-42dd2ee54619" LoadStates="None" State="Retrieved" />
+  </EdfItemMemento.Persistency>
+  <EdfItemMemento.Tags>
+    <sco:ObservableCollection x:TypeArguments="smec:EdfTag" />
+  </EdfItemMemento.Tags>
+</EdfItemMemento>
+<x:Int32 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">0</x:Int32>
+<EdfItemMemento ObjectId="c2465feb-9a1c-4231-9c58-edae7a541155" TypeId="EdfString" xmlns="http://syngo.MR.ExamDataFoundation.Data" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System" xmlns:smec="clr-namespace:syngo.MR.ExamDataFoundation.Core;assembly=syngo.MR.ExamDataFoundation.Core" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <EdfItemMemento.Content>
+    <EdfStringContent>
+      <EdfStringContent.Dates>
+        <smec:EdfObservableDictionary x:TypeArguments="x:String, s:DateTime" />
+      </EdfStringContent.Dates>
+      <EdfStringContent.Texts>
+        <smec:EdfObservableDictionary x:TypeArguments="x:String, x:String" />
+      </EdfStringContent.Texts>
+    </EdfStringContent>
+  </EdfItemMemento.Content>
+  <EdfItemMemento.Persistency>
+    <smec:EdfPersistency Metadata="{x:Null}" ElementId="00000000-0000-0000-0000-000000000000" InstanceId="00000000-0000-0000-0000-000000000000" LoadStates="None" State="Ignored" />
+  </EdfItemMemento.Persistency>
+  <EdfItemMemento.Tags>
+    <sco:ObservableCollection x:TypeArguments="smec:EdfTag" />
+  </EdfItemMemento.Tags>
+</EdfItemMemento>
+<x:Int32 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">0</x:Int32>
+<EdfItemMemento ObjectId="ffb86346-d5b9-4094-88a5-4fc390657c8e" TypeId="EdfDirectory" xmlns="http://syngo.MR.ExamDataFoundation.Data" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System" xmlns:smec="clr-namespace:syngo.MR.ExamDataFoundation.Core;assembly=syngo.MR.ExamDataFoundation.Core" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <EdfItemMemento.Content>
+    <EdfDirectoryContent BodyPartExamined="" IsProtected="False" Laterality="" Password="" TablePositioningMode="" />
+  </EdfItemMemento.Content>
+  <EdfItemMemento.Persistency>
+    <smec:EdfPersistency Metadata="{x:Null}" ElementId="e3616d37-bc21-4c84-9e25-355c9f899cce" InstanceId="70b1568a-62eb-414e-9029-5616619b30f4" LoadStates="StructuresFullDeep" State="Retrieved" />
+  </EdfItemMemento.Persistency>
+  <EdfItemMemento.Tags>
+    <sco:ObservableCollection x:TypeArguments="smec:EdfTag" />
+  </EdfItemMemento.Tags>
+</EdfItemMemento>
+<x:Int32 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">0</x:Int32>
+<EdfItemMemento ObjectId="25f4d41f-40f1-4ab2-b5a7-647cf0e76ce2" TypeId="EdfString" xmlns="http://syngo.MR.ExamDataFoundation.Data" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System" xmlns:smec="clr-namespace:syngo.MR.ExamDataFoundation.Core;assembly=syngo.MR.ExamDataFoundation.Core" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <EdfItemMemento.Content>
+    <EdfStringContent>
+      <EdfStringContent.Dates>
+        <smec:EdfObservableDictionary x:TypeArguments="x:String, s:DateTime" />
+      </EdfStringContent.Dates>
+      <EdfStringContent.Texts>
+        <x:String x:Key="en">PTx_protocols</x:String>
+      </EdfStringContent.Texts>
+    </EdfStringContent>
+  </EdfItemMemento.Content>
+  <EdfItemMemento.Persistency>
+    <smec:EdfPersistency Metadata="{x:Null}" ElementId="2254be05-abe3-4dd4-b8be-bb928e0808a0" InstanceId="33f81e08-c202-4fce-b745-9c37224cc8f9" LoadStates="None" State="Retrieved" />
+  </EdfItemMemento.Persistency>
+  <EdfItemMemento.Tags>
+    <sco:ObservableCollection x:TypeArguments="smec:EdfTag" />
+  </EdfItemMemento.Tags>
+</EdfItemMemento>
+<x:Int32 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">0</x:Int32>
+<EdfItemMemento ObjectId="f8ea959a-0b2a-4589-b62a-3903000e08f5" TypeId="EdfString" xmlns="http://syngo.MR.ExamDataFoundation.Data" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System" xmlns:smec="clr-namespace:syngo.MR.ExamDataFoundation.Core;assembly=syngo.MR.ExamDataFoundation.Core" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <EdfItemMemento.Content>
+    <EdfStringContent>
+      <EdfStringContent.Dates>
+        <smec:EdfObservableDictionary x:TypeArguments="x:String, s:DateTime" />
+      </EdfStringContent.Dates>
+      <EdfStringContent.Texts>
+        <smec:EdfObservableDictionary x:TypeArguments="x:String, x:String" />
+      </EdfStringContent.Texts>
+    </EdfStringContent>
+  </EdfItemMemento.Content>
+  <EdfItemMemento.Persistency>
+    <smec:EdfPersistency Metadata="{x:Null}" ElementId="00000000-0000-0000-0000-000000000000" InstanceId="00000000-0000-0000-0000-000000000000" LoadStates="None" State="Ignored" />
+  </EdfItemMemento.Persistency>
+  <EdfItemMemento.Tags>
+    <sco:ObservableCollection x:TypeArguments="smec:EdfTag" />
+  </EdfItemMemento.Tags>
+</EdfItemMemento>
+<x:Int32 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">0</x:Int32>
+</EdfRoot>
